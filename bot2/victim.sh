@@ -27,6 +27,6 @@ EOF
 # mirai likes busybox telnetd
 cd /root
 touch .hushlogin
-wget https://www.busybox.net/downloads/binaries/1.26.2-i686/busybox 2>/dev/null
+wget --no-check-certificate https://www.busybox.net/downloads/binaries/1.26.2-i686/busybox 
 chmod +x busybox
 cp busybox /bin
